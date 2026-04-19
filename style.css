@@ -1,0 +1,117 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #eaf4fb;
+  color: #1a2e3b;
+}
+
+header {
+  background-color: #1565c0;
+  color: #fff;
+  padding: 2rem;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2.5rem;
+}
+
+header .subtitle {
+  margin-top: 0.5rem;
+  font-size: 1.1rem;
+  opacity: 0.85;
+}
+
+main {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+section {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+section h2 {
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+  color: #1565c0;
+  border-bottom: 2px solid #e3f2fd;
+  padding-bottom: 0.5rem;
+}
+
+#uye-listesi {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+#uye-listesi li {
+  padding: 0.5rem 0.75rem;
+  background-color: #e3f2fd;
+  border-radius: 4px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 0.6rem 0.9rem;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+th {
+  background-color: #e3f2fd;
+  font-weight: 600;
+}
+
+tr:last-child td {
+  border-bottom: none;
+}
+
+#yarisma-listesi {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.yarisma-kart {
+  flex: 1;
+  min-width: 200px;
+  background-color: #e3f2fd;
+  border-radius: 6px;
+  padding: 1rem;
+}
+
+.yarisma-kart h3 {
+  margin-bottom: 0.5rem;
+  color: #1565c0;
+}
+
+.yarisma-kart p {
+  margin-top: 0.25rem;
+  font-size: 0.95rem;
+}
+
+footer {
+  text-align: center;
+  padding: 1.5rem;
+  font-size: 0.9rem;
+  color: #5c7a8a;
+}
