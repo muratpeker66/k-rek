@@ -1,0 +1,2 @@
+# k-rek
+kürek takımı
